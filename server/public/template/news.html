@@ -1,0 +1,11 @@
+<div class="gallary"><span ng-cloak ng-bind = "{{getNews()}}"></span>
+    <div ng-repeat="new in news">
+        <a href="{{new.url}}">
+            <div class="news-img">
+                <img class="news-img imgg" ng-src="{{new.imgUrl}}" alt="imgnews">
+                <hr>
+                {{new.title}}
+            </div>
+        </a>
+    </div>
+</div>

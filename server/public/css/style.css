@@ -1,0 +1,41 @@
+
+.gallary {
+  display: flex;
+  flex-wrap: wrap;
+   border-color:solid  black;
+   margin-left: 180px;
+
+} 
+ .news-img {
+width: 173px;
+min-height: 182px;
+margin: 22px;
+
+border: 2px;
+}
+.imgg:hover  {
+box-shadow: 3px;
+}
+.nav {
+justify-content: center;
+position: relative;;
+}
+#header {
+background-color: aqua;
+height: 300px;
+width: auto;
+margin-bottom: 10px;
+}
+.desc {
+justify-content: center;
+} 
+.fixx {
+  position: fixed;
+  width: 206px;
+ 
+}
+#footer {
+  min-height: 100px;
+  background-color: aquamarine;
+  margin-top: 110px;
+}
